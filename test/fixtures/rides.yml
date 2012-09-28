@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone_number: MyString
+  request: false
+  date_range_start: 2012-07-28 13:07:04
+  date_range_end: 2012-07-28 13:07:04
+  phash: MyString
+  comments: MyText
+
+two:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone_number: MyString
+  request: false
+  date_range_start: 2012-07-28 13:07:04
+  date_range_end: 2012-07-28 13:07:04
+  phash: MyString
+  comments: MyText

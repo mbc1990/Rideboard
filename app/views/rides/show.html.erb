@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>First name:</b>
+  <%= @ride.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @ride.last_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @ride.email %>
+</p>
+
+<p>
+  <b>Phone number:</b>
+  <%= @ride.phone_number %>
+</p>
+
+
+<p>
+  <b>Date range start:</b>
+  <%= @ride.date_range_start %>
+</p>
+
+<p>
+  <b>Date range end:</b>
+  <%= @ride.date_range_end %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @ride.comments %>
+</p>
+
+
+<%= link_to 'Back', rides_path %>
